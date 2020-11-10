@@ -1,22 +1,23 @@
 # Welcome to Maitretech Solution Coding Challenge:
 
-> Best of Luck for Coding Challenge!!!
+> Best of Luck for Challenge!!!
+> Challenge Compltion Time : 3 hours
 
-## Overview
+## Overview:
 
-To complete this challenge, you will need to write a simple React based web app using create-react-app (CRA), and provide us buildable the source code files. The project should be installed and built without any errors. Please read the complete this README before proceeding.
+To complete this codding challenge, you will need to write a simple React web app using create-react-app (CRA), and provide us buildable the source code files along with the build files. The project should be built and installed without any errors. Please read completely, this README before proceeding.
 
-The purpose of this challenge is to assess your **skills and approach to composing a simple react based web app** given a set of screens and an API feed. We will also review the **written JSX, CSS and JS** output.
+The purpose of this challenge is to assess your **skills and approach to composing a simple react based web app** given a set of screens and an API feed. We will also review the **written JSX, CSS and JS** output along with the final output.
 
-This challenge is expected to be completed in 2-4 hours.
+This challenge is expected to be completed in 3 hours.
 
-## The Challenge
+## The Challenge:
 
 It's pretty simple. Using the provided screens as a reference, you'll need to build a set of React components to render the app. You'll also need to fetch the data in JSON format and save the data by invoking the API.
 
 Although this is a basic exercise, we'll be looking for **simple, well-designed, performant, and error free code** in the submission.
 
-Please include a `README` with setup instructions, and any tests or other documentation you created as part of your solution.
+Please update this `README` with any tests or other documentation you created as part of your solution.
 
 Also, add the following info to your `README`:
 
@@ -24,7 +25,7 @@ Also, add the following info to your `README`:
 - Are there any improvements you could make to your submission?
 - What would you do differently if you were allocated more time?
 
-## Details
+## Details:
 
 You will need to build the following 3 pages with React:
 
@@ -35,7 +36,7 @@ You will need to build the following 3 pages with React:
 The deployable solution should be built in a folder named **`dist`** with an entry point file of **`index.html`**.
 
 Please create components for each part of the page (eg. header, content, footer, etc).
-Assets are provided in the `assets` folder.
+Assets are provided in the `assets` folder. Data is provided in `data` folder in the form of JSON file.
 
 The pages should also be usable on mobile and tablet devices.
 
@@ -53,16 +54,34 @@ You will need to display welcome message with a button to go the next Page, whic
 
 Refer to the [screens/Screen2.png](./screens/Screen2.png) for Food Items Page.
 
-For this page you will need to fetch data from the URL provided. THe data will be in JSON format containing name and the price of the food items. THen do the follwing:
+For this page you will need to fetch data from URI `./data/feeds.json` using fetch API. THe data will be in JSON format containing name, price and image of the food items. Please pass 'Content-Type': 'application/json' and 'Accept': 'application/json' as headers :
+
+Then do the follwing:
 
 - Display the name and the price of `entries` as shown in the [screens/Screen2.png](./screens/Screen2.png)
 - Where the `+` of the entry is clicked, the Total and Cost should be updated as shown in [screens/Screen2.1.png](./screens/Screen2.1.png).
 - When `Cart` icon is clicked, [screens/Screen2.2.png](./screens/Screen2.2.png) is shown, where order can be manupulated by clicking `+` and `-` buttons. IT should also reflect the current quantity. If the item is less than `1`, the item should be removed from the list.
 - When the `SAVE AND CHECKOUT` is clicked, the user should be redirected to the the screen [screens/Screen3.png](./screens/Screen3.png)
 
-You will also need to handle the loading and error states of fetching the JSON feed:
+You will also need to handle the loading and error states of fetching the JSON feeds:
 
-## FAQ
+## Getting Started:
+
+- Please clone this repo.
+- Create CRA project within this repo.
+- Move assets to your `public` folder for your CRA.
+- Please copy `feeds.json` where you can access it from the source.
+- Start coding yoru app.
+
+## COde Submission process:
+
+Please only submit error free working code otherwise you will be disqualified from the coding challenge. In order to submit your working code, please do the following:
+
+- Update this `README` with necessary information.
+- Create a new git branch in the format `<your-name>_challenge` for example if your name is `John`, the branch should be `john_challenge`.
+- Push the branch for review.
+
+## FAQ:
 
 ### What language, framework, build tool... should I use?
 
