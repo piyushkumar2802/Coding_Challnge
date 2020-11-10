@@ -1,14 +1,14 @@
-# Maitretech Solution Coding Challenge
+# Welcome to Maitretech Solution Coding Challenge:
 
-> Welcome to the Stan Coding Challenge!
+> Best of Luck for Coding Challenge!!!
 
 ## Overview
 
-To complete this challenge, you will need to write a simple React based web app, and provide us buildable the source code files. The project should be installed and built without any errors
+To complete this challenge, you will need to write a simple React based web app using create-react-app (CRA), and provide us buildable the source code files. The project should be installed and built without any errors. Please read the complete this README before proceeding.
 
 The purpose of this challenge is to assess your **skills and approach to composing a simple react based web app** given a set of screens and an API feed. We will also review the **written JSX, CSS and JS** output.
 
-This challenge is expected to take about 2-4 hours.
+This challenge is expected to be completed in 2-4 hours.
 
 ## The Challenge
 
@@ -67,6 +67,8 @@ You will also need to handle the loading and error states of fetching the JSON f
 ### What language, framework, build tool... should I use?
 
 You may use whatever you like as long as the solution is built using [React](https://reactjs.org/).
+
+We perfer you use Context API for State management. Apart from state management, you can either use redux, redux-toolkit or reoil. Please don't use any other state management library.
 
 We prefer it if you did not use any third party CSS frameworks.
 
