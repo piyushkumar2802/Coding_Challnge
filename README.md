@@ -73,9 +73,9 @@ You will also need to handle the loading and error states of fetching the JSON f
 - Please copy `feeds.json` where you can access it from the source.
 - Start coding yoru app.
 
-## COde Submission process:
+## Code Submission process:
 
-Please only submit error free working code otherwise you will be disqualified from the coding challenge. In order to submit your working code, please do the following:
+Please only submit error free working code, otherwise you will be disqualified from the coding challenge. In order to submit your working code, please do the following:
 
 - Update this `README` with necessary information.
 - Create a new git branch in the format `<your-name>_challenge` for example if your name is `John`, the branch should be `john_challenge`.
