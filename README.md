@@ -27,11 +27,12 @@ Also, add the following info to your `README`:
 
 ## Details:
 
-You will need to build the following 3 pages with React:
+You will need to build the following 4 pages with React:
 
-- A "Food App" page
-- A "Food Items" page
-- A "Thank You" page
+  - A **Food App** page
+  - A **Login** page
+  - A **Food Items** page
+  - A **Thank You** page
 
 The deployable solution should be built in a folder named **`dist`** with an entry point file of **`index.html`**.
 
@@ -49,6 +50,10 @@ Refer to the [screens/Screen1.png](./screens/Screen1.png) screen.
 This will be your `index.html` screen.
 
 You will need to display welcome message with a button to go the next Page, which link to the "Food Items" page.
+
+### "Login" page
+Create a Login Page which allows the user to Login into the Application. If user tries to access **Food Items** or **Thank You** page without entering valid credentials, he should be redirected to the **Food App** page. You can use json file for valid credentials and use setInterval to simulate the API or you can use any dummy API for this purpose. 
+You can use any State Managegement Library or Context API to accoplish it. 
 
 ### "Food Items" page
 
