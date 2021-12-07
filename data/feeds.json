@@ -1,4 +1,5 @@
-[
+{
+"restaurant":[
     {
         "name": "Hamburger",
         "price": "200",
@@ -20,3 +21,4 @@
         "image": "pepsi.jpeg"
     }
 ]
+}
