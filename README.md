@@ -57,6 +57,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+<!-- git  -->
+echo "# Coding_Challnge" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/piyushkumar2802/Coding_Challnge.git
+git push -u origin main
+
+git remote add origin https://github.com/piyushkumar2802/Coding_Challnge.git
+git branch -M main
+git push -u origin main
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
